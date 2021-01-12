@@ -1,0 +1,1 @@
+{"packageDetails": {"packageName": "RippleCarryAdder", "packageAuthors": ["adityang5@gmail.com"]}, "packageURL": "https://github.com/AdityaNG/RippleCarryAdder", "fileList": ["RippleCarryAdder.v"], "testBench": ["testbench.v"], "dependencyList": ["https://github.com/AdityaNG/BasicModules"]}
