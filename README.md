@@ -8,3 +8,5 @@ Performs the operation sum = i0 + i1
 # Dependencies
 
 [BasicModules](https://github.com/AdityaNG/BasicModules)
+1. full_adder
+2. half_adder
