@@ -1,10 +1,11 @@
+`include "RippleCarryAdder.v"
 `timescale 1 ns / 100 ps
 `define TESTVECS 8
 
 module tb;
   reg clk, reset;
   reg [7:0] i0, i1;
-  wire [8:0] o; wire cout;
+  wire [7:0] o; wire cout;
   reg [31:0] test_vecs [0:(`TESTVECS-1)];
   integer i;
   initial begin $dumpfile("RippleCarryAdder.vcd"); $dumpvars(0,tb); end

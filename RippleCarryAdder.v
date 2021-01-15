@@ -1,10 +1,12 @@
+`include "BasicModules/half_adder.v"
+`include "BasicModules/full_adder.v"
 
 // RippleCarryAdder
 module RippleCarryAdder(
 input [7:0] a,
 input [7:0] b,
-output [7:0] sum,
-c_out
+output wire [7:0] sum,
+output wire c_out
 );
     wire [6:0] c;
     half_adder rca0(a[0], b[0], sum[0], c[0]);
